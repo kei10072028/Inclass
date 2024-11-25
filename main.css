@@ -42,7 +42,7 @@ list-style-type: none; /* Removes default bullet points from the list items */
 margin: 0; /* Removes default margin around the unordered list */
 padding: 0; /* Removes default padding inside the unordered list */
 overflow: hidden; /* Ensures the list items are contained within the parent element background-color: #191970; /* Sets a dark blue background for the navigation bar */ 
-  border-radius: 20px; /* Rounds the corners of the navigation bar */
+border-radius: 20px; /* Rounds the corners of the navigation bar */
 /* Style individual list items */
 li {
 }
@@ -62,10 +62,9 @@ background-color: #D3D3D3; /* Changes the background color to light gray when ho
 /* Style for the active link */
 .active {
 }
-background-color: #4CAF50; /* Sets the background color of the active link to green  
+background-color: #4CAF50; / 
   
 aside {
-}
 float: left; /* Positions the <aside> element to the left of the containing element */ 
 width: 420px; /* Sets a fixed width of 420px for the <aside> element */
 min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */ 
