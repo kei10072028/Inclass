@@ -39,33 +39,32 @@ nav{
   
 /* style the unordered list */
 ul {
-}
 list-style-type: none; /* Removes default bullet points from the list items */ 
 margin: 0; /* Removes default margin around the unordered list */
 padding: 0; /* Removes default padding inside the unordered list */
 overflow: hidden; /* Ensures the list items are contained within the parent element background-color: #191970; /* Sets a dark blue background for the navigation bar */ 
 border-radius: 20px; /* Rounds the corners of the navigation bar */
 /* Style individual list items */
-li {
 }
+li {
 float: left; /* Positions the list items horizontally in a row */
 /* Style the links within list items */
-li a {
 }
+  li a {
 display: block; /* Makes the entire area of the link clickable */ 
 color: #FFFFFF; /* Sets the text color of the links to white */
 text-align: center; /* Centers the text within the link */
 padding: 14px 16px; /* Adds space inside the link for better readability */ 
 text-decoration: none; /* Removes the default underline from links */
 /* style for hover state on non-active links */
-li a:hover:not(.active) {
 }
+  li a:hover:not(.active) {
 background-color: #D3D3D3; /* Changes the background color to light gray when hovering
 /* Style for the active link */
-.active {
 }
+  .active {
 background-color: #4CAF50; / 
-  
+}
 aside {
 float: left; /* Positions the <aside> element to the left of the containing element */ 
 width: 420px; /* Sets a fixed width of 420px for the <aside> element */
