@@ -65,7 +65,7 @@ background-color: #000000; /* Changes the background color to light gray when ho
 background-color: #000000;  
 }
 
-aside {
+aside{
 float: left; /* Positions the <aside> element to the left of the containing element */ 
 width: 420px; /* Sets a fixed width of 420px for the <aside> element */
 min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */ 
