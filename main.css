@@ -35,7 +35,7 @@ header{
   
 nav{  
   display:block;
-  
+}  
 /* style the unordered list */
 ul {
 list-style-type: none; /* Removes default bullet points from the list items */ 
