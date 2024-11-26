@@ -58,7 +58,7 @@ text-decoration: none; /* Removes the default underline from links */
 /* style for hover state on non-active links */
 }
 li a:hover:not(.active) { 
-background-color: #D3D3D3; /* Changes the background color to light gray when hovering
+background-color: #000000; /* Changes the background color to light gray when hovering
 /* Style for the active link */
 }
   .active {
