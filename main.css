@@ -31,11 +31,10 @@ header{
   text-align: center;	
   color: #000000;	
 }
-
+}
   
 nav{  
   display:block;
-}
   
 /* style the unordered list */
 ul {
@@ -65,6 +64,8 @@ background-color: #D3D3D3; /* Changes the background color to light gray when ho
   .active {
 background-color: #4CAF50; / 
 }
+}
+
 aside {
 float: left; /* Positions the <aside> element to the left of the containing element */ 
 width: 420px; /* Sets a fixed width of 420px for the <aside> element */
@@ -81,6 +82,7 @@ float: left;
 /* Adds a 10px margin around all sides of the element for spacing */ 
 margin: 10px;
 }
+
 section{	
 /* Positions the section element to the right side of its containing
 element, allowing other floated elements (like aside) to align next to it */ 
