@@ -10,7 +10,16 @@ font: 10pt/1.5em Helvetica, "Helvetica neue", Arial, sans-serif;
 /* Sets a light blue background color for the page */
 background: #F0F8FF;
 }
-
+nav{
+}
+aside{
+float: left; /* Positions the <aside> element to the left of the containing element */ 
+width: 420px; /* Sets a fixed width of 420px for the <aside> element */
+min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */ 
+padding-right: 20px; /* Adds 20px of space on the right side of the <aside> content */ 
+padding-top: 20px; /* Adds 20px of space at the top of the <aside> content */
+text-align: justify; /* Aligns the text within the <aside> element to be justified */
+}
 header{
   h1 {	
   font-size: 40px;    
@@ -41,7 +50,8 @@ ul {
 list-style-type: none; /* Removes default bullet points from the list items */ 
 margin: 0; /* Removes default margin around the unordered list */
 padding: 0; /* Removes default padding inside the unordered list */
-overflow: hidden; /* Ensures the list items are contained within the parent element background-color: #191970; /* Sets a dark blue background for the navigation bar */ 
+overflow: hidden; 
+background-color: #191970; /* Sets a dark blue background for the navigation bar */ 
 border-radius: 20px; /* Rounds the corners of the navigation bar */
 /* Style individual list items */
 }
@@ -63,15 +73,6 @@ background-color: #000000; /* Changes the background color to light gray when ho
 }
   .active {
 background-color: #000000;  
-}
-
-aside{
-float: left; /* Positions the <aside> element to the left of the containing element */ 
-width: 420px; /* Sets a fixed width of 420px for the <aside> element */
-min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */ 
-padding-right: 20px; /* Adds 20px of space on the right side of the <aside> content */ 
-padding-top: 20px; /* Adds 20px of space at the top of the <aside> content */
-text-align: justify; /* Aligns the text within the <aside> element to be justified */
 }
 
 #intro-image {
