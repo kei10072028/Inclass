@@ -81,6 +81,8 @@ allowing text or other elements to flow around it */
 float: left;
 /* Adds a 10px margin around all sides of the element for spacing */ 
 margin: 10px;
+height: 200px;
+width=200px;
 }
 
 section{	
