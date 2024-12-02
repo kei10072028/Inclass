@@ -114,8 +114,9 @@ text-align: center;
 
 #footer-image {
 /* Sets the height of the footer image to 100px */ 
-height: 100px;
+height: 50px;
 /* Sets the width of the footer image to 100px
 (fixed the incorrect syntax with an equal sign) */
-width: 100px;
+width: 50px;
+
 }
